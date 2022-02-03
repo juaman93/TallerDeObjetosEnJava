@@ -10,3 +10,5 @@ La lista de clases utilizadas son las siguientes:
 - Pants
 
 En cada una de estas clases se describen sus atributos y sus propios métodos. Además, se agregaron atributos adicionales a alguna de las clases originales para explicar un poco mejor el objeto.
+
+Entorno de Desarrollo utilizado: IntelliJ IDEA.
