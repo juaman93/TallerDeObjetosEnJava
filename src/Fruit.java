@@ -18,9 +18,13 @@ public class Fruit {
      */
     private float averageWeight;
     /**
+     * Represental a cantidad de colores de la lista de colores.
+     */
+    public int colorQuantity;
+    /**
      * Representa los diferentes colores que puede llegar a tener una fruta.
      */
-    public ArrayList<String> colors = new ArrayList<String>();
+    public ArrayList<String> colors = new ArrayList<String>(colorQuantity);
 
     //Métodos
 
@@ -69,6 +73,6 @@ public class Fruit {
      * @param colors Asigna los los diferentes colores que puede llegar a tener una fruta.
      */
     public void setColors(ArrayList<String> colors) {
-        this.colors = colors;
+        colors.add("color de fruta");
     }
 }
